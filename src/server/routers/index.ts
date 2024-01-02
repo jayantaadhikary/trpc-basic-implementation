@@ -17,3 +17,5 @@ export const appRouter = t.router({
     }),
   users: userRouter,
 });
+
+// export const mergedRouter = t.mergeRouters(appRouter, userRouter);
