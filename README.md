@@ -2,6 +2,10 @@
 
 This is a basic implementation of a TRPC server and client in vanilla TS. It uses the [TRPC](https://trpc.io) library for the RPC implementation with type safety.
 
+The server is a simple express server that exposes a single endpoint `/trpc` that the client can call. The client is a simple script that calls the server endpoint and logs the result to the console.
+
+tRPC allows you to easily build & consume fully typesafe APIs without schemas or code generation. It's a tiny (~1.5kb) RPC library that works with any HTTP server framework. It's built with TypeScript and works great with Next.js, React, React Native, Solid, Vue, and more.
+
 ### How to run
 
 1. Clone the repo
